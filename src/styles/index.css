@@ -1,0 +1,101 @@
+.logo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    width: 55vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-primary);   
+}
+
+.logo > img{
+    width: 400px;
+}
+
+.logo > h1{
+    color: white;
+    text-align: center;
+    width: 600px;
+    font-family: poppins;
+}
+
+.recuperar button{
+    color: var(--color-primary);   
+    font-family: poppins; 
+    border: none;
+    background-color: transparent;
+}
+
+.recuperar button:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+
+.cadastro button{
+    background-color: green;
+    border: 1px solid transparent;
+    border-radius: 1.4rem;
+    width: 200px;
+    height: 50px;
+    font-family: poppins;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.cadastro button:hover {
+    background-color:  var(--colo-grey-3);
+}
+
+.input label{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    font-size: 18px;
+    width: 200px;
+}
+
+
+.input input{
+    font-family: poppins;
+    font-size: 15px;
+    padding-left: 10px;
+    width: 300px;
+    height: 40px;
+    background-color:var( --color-grey-1);
+    border-radius: var( --radius-1);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    gap: 30px;
+    padding: 200px;
+
+    background-color: white;
+}
+
+.form > h2{
+    font-size: 40px;
+    font-family: poppins;
+}
+
+.pagina_cadastro {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    width: 40vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center; 
+}
+

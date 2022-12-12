@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <script src="./src/scripts/modal.js" defer></script>
+    <title>Sephora - Login</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="./src/img/Sephora-Emblema.png" alt="">
+        <h1>Produtos de maquiagem, skincare e cuidados para corpo e cabelos com o que existe de mais moderno no mundo da Beleza!</h1>
+        </div>
+    </header>
+    
+      <main>
+        <div class="pagina_cadastro">
+    
+          <form class="form">
+    
+            <h2>Login</h2>
+    
+            <div class="input">
+              <label for="email">E-mail:</label>
+              <input type="text" name="email" placeholder="Digite seu e-mail cadastrado" id="email">
+            </div>
+    
+            <div class="input">
+              <label for="password">Senha:</label>
+              <input type="password" name="password" placeholder="*****" id="password">
+            </div>
+
+            <div class="recuperar">
+            <button type="submit" class="btn-recuperar">Esqueceu a senha?</button>
+            </div>
+    
+            <div class="cadastro">
+                <button type="submit" class="btn-cadastrar">Logar</button>   
+            </div>
+    
+          </form>
+    
+        </div>
+
+        <section class="modal_cadastro hidden">
+          <form class="modal_form">
+      
+             <p>Vamos enviar um e-mail de recuperação de senha para o seu e-mail cadastrado!</p>
+             <button id="fechar">X</button>
+      
+              <div class="input">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" placeholder="Digite seu e-mail cadastrado" id="email">
+              </div>
+  
+              <div class="cadastro">
+                  <button type="submit" id="btn-enviar">Enviar</button>
+                </div>
+      
+            </form>
+          </section> 
+      </main>
+</body>
+</html>
